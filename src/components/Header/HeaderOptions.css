@@ -1,0 +1,24 @@
+.headerOptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+.headerOptions_title{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.headerOptions_icon{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+/* this hover effect will change from gey to black when we point cursor on any icon */
+.headerOptions:hover{
+    color: black;
+}
